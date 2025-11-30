@@ -26,4 +26,3 @@ def heeba_number_game():
         print("Thank you for playing champ!")
         break
 
-heeba_number_game()
