@@ -50,3 +50,25 @@ def heeba_number_game():
         print("Thank you for playing champ!")
         break
 
+
+def main():
+    while True:
+        print("\nMAIN MENU")
+        print("1. Calculator")
+        print("2. Number Guessing Game")
+        print("3. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            urooj_calc()
+        elif choice == "2":
+            heeba_number_game()
+        elif choice == "3":
+            print("Exiting program")
+            break
+        else:
+            print("Invalid choice. Try again.")
+
+
+main()
