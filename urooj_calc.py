@@ -22,4 +22,3 @@ def urooj_calc():
         else:
             print("Invalid choice")
 #calling function
-urooj_calc()
